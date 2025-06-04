@@ -1,2 +1,2 @@
 # agama-profile-edit
-Agama Project to edit profile
+Agama Project to update user's profile. 
