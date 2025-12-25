@@ -1,0 +1,24 @@
+{
+    "projectName": "agama-profile-edit",
+    "description": "Agama flow to let users update profile claims",
+    "type": "community",
+    "author": "GluuFederation",
+    "version": "1.0.0",
+    "authorWebsite": "https://github.com/GluuFederation/agama-profile-edit",
+    "githubUri": "https://github.com/GluuFederation/agama-profile-edit",
+    "license": "apache-2.0",
+    "lastUpdated": "1749588168026",
+    "tags": [
+        "jans",
+        "community",
+        "authorization"
+    ],
+    "noDirectLaunch": [],
+    "configs": {
+        "": {},
+        "org.gluu.agama.profile.update.main": {},
+        "code": {},
+        "web": {}
+    },
+    "name": "agama-profile-edit"
+}

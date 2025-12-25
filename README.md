@@ -1,2 +1,2 @@
-# agama-profile-edit
-Agama Project to update user's profile. 
+### agama-profile-edit
+ Agama flow to let users update profile claims
