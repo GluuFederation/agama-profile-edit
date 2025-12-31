@@ -1,5 +1,5 @@
 Flow org.gluu.agama.profile.update.main
-     Basepath ""
+     Basepath "profiledir"
 // Profile update flow starting
 Log "@info Profile update flow starting..."
 // Assign veriable
@@ -38,8 +38,8 @@ When result.success is true
                     // Show acknowledgement UI page for successful update
                     ack = RRF "acknowledgement.ftlh" 
                     // Finish successfully
-                    it_cxkvm = {success:true, data: { userId: user.uid}}
-                    Finish it_cxkvm
+                    it_tmvri = {success:true, data: { userId: user.uid}}
+                    Finish it_tmvri
                Otherwise
                     // Assign error message
                     uifeedback.errorMessage = E
@@ -52,8 +52,8 @@ When result.success is true
      // Maximum attempt reached
      Log "@info Maximum attempt reached"
      // Flow finished with error 
-     it_aocbo = {success:false, error: "You've cross your max attempt limit"}
-     Finish it_aocbo
+     it_eafjx = {success:false, error: "You've cross your max attempt limit"}
+     Finish it_eafjx
 Otherwise
      // Assing errro message
      uifeedback.errorMessage = "SMTP flow not found"
