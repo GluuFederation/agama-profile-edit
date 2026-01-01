@@ -171,8 +171,12 @@
 					"comment": "Trigger smtp flow",
 					"overrides": [
 						{
-							"from": "hyyqd9/main.fls",
+							"from": "hyyqd9/main.ftlh",
 							"to": "main.ftlh"
+						},
+						{
+							"from": "hyyqd9/otp.ftlh",
+							"to": "otp.ftlh"
 						}
 					]
 				}
@@ -1499,8 +1503,8 @@
 		}
 	],
 	"viewport": {
-		"x": -554,
-		"y": -36,
+		"x": -692,
+		"y": -11,
 		"zoom": 1
 	}
 }
