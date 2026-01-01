@@ -18,7 +18,7 @@
 				},
 				"agamaData": {
 					"isTopLevelFlow": true,
-					"basepath": "profiledir",
+					"basepath": "",
 					"configParams": {},
 					"nodeIcon": "material-symbols:line-start-square",
 					"timeout": "",
@@ -35,7 +35,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": false
+			"selected": true
 		},
 		{
 			"id": "logNode-9e0dbc2d-c5eb-4cc7-9858-d805bb67bbda",
@@ -185,7 +185,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -1503,8 +1503,8 @@
 		}
 	],
 	"viewport": {
-		"x": -725,
-		"y": -82,
+		"x": -17,
+		"y": 3,
 		"zoom": 1
 	}
 }
