@@ -3,7 +3,7 @@
     "description": "Agama flow to let users update profile claims",
     "type": "community",
     "author": "GluuFederation",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authorWebsite": "https://github.com/GluuFederation/agama-profile-edit",
     "githubUri": "https://github.com/GluuFederation/agama-profile-edit",
     "license": "apache-2.0",
