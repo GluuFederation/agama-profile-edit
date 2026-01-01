@@ -37,6 +37,10 @@ Here we re-use our existing [**Agama-SMTP**](https://github.com/GluuFederation/a
 [SMTP service](https://docs.jans.io/head/admin/config-guide/smtp-configuration/)
 configured
 
+To use [template overriding](https://docs.jans.io/head/janssen-server/developer/agama/advanced-usages/#template-overrides) set the flow’s current path and basepath (in our case, it is empty). After deploying, copy the derived template from the project directory to the current project directory and modify as needed.
+
+
+
 ### Download the Project
 
 > [!TIP]
