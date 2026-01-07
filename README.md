@@ -89,6 +89,34 @@ To invoke the `org.gluu.agama.profile.update.main` flow contained in the Agama-P
 specify the ACR value as `agama_<qualified-name-of-the-top-level-flow>`, 
 i.e `agama_org.gluu.agama.profile.update.main`.
 
+**[N.B]** If you try to direct use this flow then you may experience an error 
+```
+An unexpected error ocurred:
+
+Template not found for name "/ftl/qhgqww/main.ftlh". The name was interpreted by this TemplateLoader: FileTemplateLoader(baseDir="/opt/jans/jetty/jans-auth/agama", canonicalBasePath="/opt/jans/jetty/jans-auth/agama/").
+
+Try again later
+```
+This error occurs if we reference template overriding in our flow without properly implementing the template override mechanism. For example, as shown below, we trigger the `agama-smtp` flow and want to override its templates as well.
+Therefore, we must specify both the directory of the original assets and the actual path of our own assets. By ‘our assets,’ we mean the templates copied from the agama-smtp project directory.
+The question is when we should do this:
+
+First, deploy the `agama-smtp` project. Then, reference its asset paths in our flow.
+(See the screenshot below.)
+
+<img width="1233" height="803" alt="2026-01-02_20-54" src="https://github.com/user-attachments/assets/5f786067-e6db-4a8b-89fb-dcd0c9ea5efe" />
+
+
+Second, deploy `agama-profile-edit` and copy the `agama-smtp` assets into the `agama-profile-edit` project directory.
+In my case:
+
+* agama-smtp directory:
+`/opt/jans/jetty/jans-auth/agama/ftl/hyyqd9`
+
+* agama-profile-edit directory:
+`/opt/jans/jetty/jans-auth/agama/ftl/qhgqww`
+
+Finally, if someone wants to use our flow exactly as-is, they must complete these steps. This project serves as an example of how to reuse one Agama project in another and how to override templates correctly.
 
 ## Flows In The Project
 
