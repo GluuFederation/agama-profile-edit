@@ -26,7 +26,7 @@
 		<form method="post" class="my-8">
 		  <div class="relative mb-2">
 			<label for="username" class="label mt-2 ml-1 leading-tighter text-gray-600 text-base cursor-text">
-			  Username
+			  Email Address
 			</label>
 			<input type="email" id="email" name="email" autofocus="" placeholder="name@example.com" value="${email!}" required="" class="w-full rounded px-3 border border-gray-300 pt-2 pb-2">
 		  </div>
