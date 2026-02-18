@@ -20,7 +20,7 @@
 			<img src="https://gluu.org/wp-content/uploads/2020/12/logo.png">
 		  </div>
 		  <span class="text-2xl font-semi-bold leading-normal">Form</span>
-		  <p class="leading-normal">Enter your Username
+		  <p class="leading-normal">Enter your Email address
 		  </p>
 		</div>
 		<form method="post" class="my-8">
