@@ -169,12 +169,7 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "Trigger smtp flow",
-					"overrides": [
-						{
-							"from": "hyyqd9/main.ftlh",
-							"to": "main.ftlh"
-						}
-					]
+					"overrides": []
 				}
 			},
 			"measured": {
@@ -1499,8 +1494,8 @@
 		}
 	],
 	"viewport": {
-		"x": -514,
-		"y": -55,
+		"x": -344,
+		"y": -47,
 		"zoom": 1
 	}
 }
