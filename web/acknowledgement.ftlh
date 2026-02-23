@@ -20,7 +20,7 @@
 	  <div class="separator">
 	  </div>
 	  <p class="message">
-		You've successfully update profile info on Gluu!!!
+		You've successfully updated profile info on Gluu!
 		<br>
 	  </p>
 	  <form method="post" id="myForm" class="my-8">
